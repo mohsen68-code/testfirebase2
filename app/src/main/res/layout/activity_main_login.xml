@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainLogin">
+
+
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/edtname"
+        android:hint="email"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/edtpass"
+        android:hint="pass"
+        android:layout_below="@+id/edtname"
+
+        />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/edtrepass"
+        android:hint="repass"
+        android:layout_below="@+id/edtpass"
+
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/btnsign"
+        android:layout_below="@+id/edtrepass"
+        android:text="ok"
+        android:textSize="18sp"
+        android:layout_marginRight="18dp"
+        android:layout_marginLeft="18dp"
+        android:textColor="@color/white"
+        />
+
+</RelativeLayout>
